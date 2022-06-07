@@ -22,7 +22,7 @@ class Hero extends React.Component {
               <div className="line-text">
                 <h4>Hello, I'm</h4>
               </div>
-              <Glitch text="John Neo" />
+              <Glitch text="Jesse Lemieux" />
               <Typewriter
                 options={{
                   strings: [

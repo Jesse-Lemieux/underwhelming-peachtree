@@ -1,5 +1,5 @@
 {
-  "name": "Jesse Lemieux",
+  "name": "Jesse-Lemieux",
   "description": "Portfolio for web developer Jesse Lemieux",
   "version": "1.0.0",
   "author": "Syed Muaz Ali",
@@ -10,6 +10,7 @@
     "animate.css": "^3.7.2",
     "baffle-react": "0.0.2",
     "gatsby": "^2.21.1",
+    "gatsby-cli": "^4.16.0",
     "gatsby-image": "2.2.37",
     "gatsby-link": "2.2.27",
     "gatsby-plugin-feed": "2.3.25",
@@ -31,6 +32,7 @@
     "gatsby-transformer-remark": "2.6.45",
     "gatsby-transformer-sharp": "2.3.9",
     "origen-react-instagram-feed": "^0.0.3",
+    "python": "0.0.4",
     "react": "^16.13.1",
     "react-animated-css": "^1.2.1",
     "react-bootstrap": "^1.0.0-beta.17",
@@ -43,6 +45,8 @@
     "react-slick": "^0.25.2",
     "react-tilt": "^0.1.4",
     "scroll-to-element": "^2.0.3",
+    "shard": "^1.1.0",
+    "sharp": "^0.30.6",
     "slick-carousel": "^1.8.1",
     "typewriter-effect": "^2.13.0"
   },

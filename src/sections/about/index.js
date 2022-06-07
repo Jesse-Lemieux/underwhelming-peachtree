@@ -23,7 +23,7 @@ class Hero extends React.Component {
                             </div>
                             <h3>I'm a Full Stack web developer working from home</h3>
                             <div className="separator" />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit nisi vitae feugiat vestibulum. Aliquam porta nulla vel odio scelerisque, pretium volutpat dui euismod. Integer porttitor dolor placerat malesuada dictum. Fusce enim dolor, dignissim quis ornare at, elementum nec turpis. Donec ac interdum libero, sed condimentum lectus. Nunc nec iaculis tortor. Donec interdum sollicitudin eros in pharetra. Donec ultricies laoreet dictum. Maecenas vestibulum sodales justo, id hendrerit orci aliquet gravida. Nulla facilisi.</p>
+                            <p>I've been working with computer nearly the whole of my life. I first learned how to code html in 2003 when I was just 11! Since then I've been hard at work personally as well as professionally sharpening my coding skills and working tirelessly</p>
                             <div className="social social_icons">
                                 <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://www.github.com')}/>
                                 <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://www.twitter.com')} />
@@ -38,10 +38,10 @@ class Hero extends React.Component {
                             </div>
                             <div className="skills-container">
                                 <Progress name="Web Design" value={90} delay={1100} />
-                                <Progress name="Angular" value={50} delay={1100} />
+                                <Progress name="MERN" value={50} delay={1100} />
                                 <Progress name="React" value={80} delay={1100} />
-                                <Progress name="Vue" value={40} delay={1100} />
-                                <Progress name="MongoDB" value={100} delay={1100} />
+                                <Progress name="Node" value={40} delay={1100} />
+                                <Progress name="Javascript" value={100} delay={1100} />
                                 <Progress name="CSS" value={50} delay={1100} />
                             </div>
                     </Col>
