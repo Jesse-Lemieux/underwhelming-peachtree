@@ -2,3 +2,8 @@
     height: 30px;
     width: 30px;
 }
+ul.ba {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

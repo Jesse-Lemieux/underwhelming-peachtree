@@ -1,12 +1,18 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbSeparator,
+} from '@chakra-ui/react'
 
 function Nav(props) {
   const {
-    categories = [],
-    setCurrentCategory,
+    navLinks = [],
+    setCurrentActiveNav,
     contactSelected,
-    currentCategory,
+    currentActiveNav,
     setContactSelected,
   } = props;
 
@@ -18,28 +24,39 @@ function Nav(props) {
         </a>
       </h2>
       <nav>
-        <ul className="flex-row">
-          {categories.map((category) => (
-            <li
+      <Breadcrumb BreadcrumbSeparator={'-'}>
+
+          {navLinks.map((navLink) => (
+            
+            <BreadcrumbItem>
+            <div
               className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
+                currentActiveNav.name === navLink.name && !contactSelected && 'navActive'
                 }`}
-              key={category.name}
+              key={navLink.name}
             >
               <span
                 onClick={() => {
-                  setCurrentCategory(category);
+                  setCurrentActiveNav(navLink);
                   setContactSelected(false);
                 }}
               >
-                {capitalizeFirstLetter(category.name)}
+              <BreadcrumbLink>
+                {capitalizeFirstLetter(navLink.name)}
+                </BreadcrumbLink>
               </span>
-            </li>
+            </div>
+            </BreadcrumbItem>
+           
           ))}
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+          <BreadcrumbItem>
+          <div className={`mx-2 ${contactSelected && 'navActive'}`}>
+          <BreadcrumbLink>
             <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
-        </ul>
+            </BreadcrumbLink>
+          </div>
+          </BreadcrumbItem>
+        </Breadcrumb>
       </nav>
     </header>
   );

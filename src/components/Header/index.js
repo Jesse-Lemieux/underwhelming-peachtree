@@ -3,17 +3,17 @@ import Nav from '../Nav'
 function Header(props){
 
     const {
-        categories = [],
-        setCurrentCategory,
+        navLinks = [],
+        setCurrentActiveNav,
         contactSelected,
-        currentCategory,
+        currentActiveNav,
         setContactSelected,
       } = props;
       return (
         <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
+        navLinks={navLinks}
+        setCurrentActiveNav={setCurrentActiveNav}
+        currentActiveNav={currentActiveNav}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Nav>

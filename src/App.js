@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 
 function App() {
 
-  const [categories] = useState([
+  const [navLinks] = useState([
     {
       name: 'About Me',
       description: 'Details about my life as an aspiring web developer.',
@@ -15,16 +15,16 @@ function App() {
     { name: 'Resume', description: 'Professional resume for you to recieve.' }
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [currentActiveNav, setcurrentActiveNav] = useState(navLinks[0]);
     
   const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
       <Header
-      categories={categories}
-      setCurrentCategory={setCurrentCategory}
-      currentCategory={currentCategory}
+      navLinks={navLinks}
+      setcurrentActiveNav={setcurrentActiveNav}
+      currentActiveNav={currentActiveNav}
       contactSelected={contactSelected}
       setContactSelected={setContactSelected}
       ></Header>
