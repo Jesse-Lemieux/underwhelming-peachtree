@@ -3,14 +3,10 @@ import { Row, Col, Container } from 'react-bootstrap'
 import BaffleText from 'components/baffle-text'
 import AnimationContainer from 'components/animation-container'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faAngular, faAws } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faPython, faAws, faJs, faGithub, faNode } from '@fortawesome/free-brands-svg-icons'
 import {
-  faPencilRuler,
   faServer,
   faRobot,
-  faSmileBeam,
-  faPizzaSlice,
-  faQuoteRight,
   faCode,
 } from '@fortawesome/free-solid-svg-icons'
 import Counter from 'components/counter'
@@ -103,24 +99,22 @@ class Services extends React.Component {
           <Col md={4} className="service border-side">
             <AnimationContainer delay={400} animation="fadeInDown fast">
               <div className="icon">
-                <FontAwesomeIcon icon={faAngular} />
+                <FontAwesomeIcon icon={faNode} />
               </div>
-              <h4>Angular Web App</h4>
+              <h4>Node Web App</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                I've worked with node since I began learning to work with the full stack.
+                I've worked with express and many different databases through node to achieve
+                the full stack.
               </p>
             </AnimationContainer>
           </Col>
           <Col md={4} className="service">
             <AnimationContainer delay={600} animation="fadeInRight fast">
               <div className="icon">
-                <FontAwesomeIcon icon={faAws} />
+                <FontAwesomeIcon icon={faPython} />
               </div>
-              <h4>AWS Management</h4>
+              <h4>Python</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
@@ -133,15 +127,13 @@ class Services extends React.Component {
           <Col md={4} className="service">
             <AnimationContainer delay={800} animation="fadeInLeft fast">
               <div className="icon">
-                <FontAwesomeIcon icon={faPencilRuler} className="solid" />
+                <FontAwesomeIcon icon={faJs} className="solid" />
               </div>
-              <h4>UI/UX Design</h4>
+              <h4>Javascript</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                My primary language. This is mostly where I started and what sparked my
+                interest in coding. Nearly every app and website I've designed uses it.
+                I've used js for many years and know almost all there is to know about it.
               </p>
             </AnimationContainer>
           </Col>
@@ -150,13 +142,11 @@ class Services extends React.Component {
               <div className="icon">
                 <FontAwesomeIcon icon={faServer} className="solid" />
               </div>
-              <h4>Linux Server Management</h4>
+              <h4>Server Management</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                I spent a many hours in school working with databases and managing servers.
+                I have gathered extensive knowledge of Mongo and MongoDB, as well as MySQL
+                and sequelize.
               </p>
             </AnimationContainer>
           </Col>
@@ -184,40 +174,18 @@ class Services extends React.Component {
     if (this.state.show || this.context.height === 'auto') {
       return (
         <Container>
-          <Col md={3}>
+          <Col md={6}>
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
-                icon={faSmileBeam}
+                icon={faGithub}
                 value={100}
-                text="Happy Clients"
+                text="Projects Worked On"
                 symbol="+"
                 duration={3}
               />
             </AnimationContainer>
           </Col>
-          <Col md={3}>
-            <AnimationContainer delay={100} animation="fadeIn fast">
-              <Counter
-                icon={faPizzaSlice}
-                value={1000}
-                text="Pizzas Ordered"
-                symbol="+"
-                duration={3}
-              />
-            </AnimationContainer>
-          </Col>
-          <Col md={3}>
-            <AnimationContainer delay={100} animation="fadeIn fast">
-              <Counter
-                icon={faQuoteRight}
-                value={500}
-                text="Reviews"
-                symbol="+"
-                duration={3}
-              />
-            </AnimationContainer>
-          </Col>
-          <Col md={3}>
+          <Col md={6}>
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
                 icon={faCode}

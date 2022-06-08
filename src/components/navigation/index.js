@@ -24,9 +24,6 @@ class Navigation extends React.Component {
                 name: "Portfolio"
             },
             {
-                name: "Testimonials"
-            },
-            {
                 name: "Contact"
             }
         ]
@@ -54,8 +51,8 @@ class Navigation extends React.Component {
                 </div>
                 <div className={`navigation ${this.state.show ? "active" : ""}`}>
                     <FontAwesomeIcon icon={faTimes} className="closeNav" onClick={() => this.setState({show: false})} />
-                    <div className="logo">
-                        <img src="img/logo.png" alt="logo"/>
+                    <div className="logo text-align-center">
+                        <h1> </h1>
                     </div>
                     <div className="links">
                         <ul>

@@ -26,9 +26,9 @@ class Hero extends React.Component {
               <Typewriter
                 options={{
                   strings: [
-                    'UI/UX Designer',
-                    'PHP Developer',
-                    'Mobile App Expert',
+                    'Full Stack Web Developer',
+                    'React Developer',
+                    'Javascript Expert',
                   ],
                   autoStart: true,
                   loop: true,
