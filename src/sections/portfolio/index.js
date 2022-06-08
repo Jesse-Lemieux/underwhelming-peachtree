@@ -24,6 +24,7 @@ class Portfolio extends React.Component {
           : 1,
       items: this.props.items,
       showPortfolio: false,
+      link: this.props.link
     }
     this.showPortfolio = this.showPortfolio.bind(this)
   }
@@ -85,6 +86,7 @@ class Portfolio extends React.Component {
   }
 
   items() {
+    
     if (this.state.showPortfolio || this.context.height === 'auto') {
       const { items } = this.state
       return items.map((value, index) => {
@@ -94,6 +96,7 @@ class Portfolio extends React.Component {
         ) {
           if (value.content.frontmatter.image) {
             return (
+              
               <div
                 className="portfolio_item"
                 style={{
@@ -111,6 +114,7 @@ class Portfolio extends React.Component {
                 key={index}
               >
                 <AnimationContainer delay={200} animation="fadeIn" key={index}>
+                
                   <img
                     src={
                       value.content.frontmatter.image.childImageSharp.fluid.src
@@ -127,15 +131,19 @@ class Portfolio extends React.Component {
                           : 1)}px`,
                     }}
                   />
+               
                   <Tilt className="Tilt" options={{ scale: 1, max: 50 }}>
-                    <div className="overlay">
+                    <div className="overlay" 
+                    onClick={() => window.open(value.content.frontmatter.link)}>
                       <span className="title">
                         {value.content.frontmatter.title}
                       </span>
                     </div>
                   </Tilt>
+                  
                 </AnimationContainer>
               </div>
+              
             )
           }
         }
@@ -204,7 +212,9 @@ export default props => (
                     id
                     title
                     category
-                    image {
+                    link
+                    image
+                     {
                       childImageSharp {
                         fluid(maxWidth: 2000, maxHeight: 2000) {
                           src

@@ -74,7 +74,7 @@ class Contact extends React.Component {
                         </AnimationContainer>
                         <AnimationContainer delay={100} animation="fadeInUp fast">
                         <div className="form-group">
-                            <input type="text" className={`email ${this.check(this.state.email) ? "" : "error"}`} placeholder="Email" onChange={e => this.setState({email: e.target.value})} />
+                            <input type="text" className={`email ${this.check(this.state.email) ? "" : "error"}`} onBlur={this.handleChange} placeholder="Email" onChange={e => this.setState({email: e.target.value})} />
                         </div>
                         </AnimationContainer>
                         <AnimationContainer delay={150} animation="fadeInUp fast">
@@ -105,7 +105,7 @@ class Contact extends React.Component {
         if (this.state.show || this.context.height === "auto") {
             return (
                 <AnimationContainer delay={1000} animation="fadeIn fast" height={this.context.height}>
-                    <iframe title="map" width="100%" height="100%" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"/>
+                    <iframe title="map" width="100%" height="100%" src="https://maps.google.com/maps?q=128%20ball%20farm%20rd&t=&z=13&ie=UTF8&iwloc=&output=embed"/>
                 </AnimationContainer>
             )
         }

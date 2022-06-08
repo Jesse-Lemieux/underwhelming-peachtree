@@ -64107,18 +64107,18 @@ module.exports = warning;
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"icons\":{\"edges\":[{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/a7bb949e6d0d488a85cb39612f19aecb/f1913/1.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/64163140e3dc3c1aad4243465e50acd4/b6970/10.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/556c1746a1f0e3ede5b29ce5282a8410/6f0bd/2.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/ad8cd4b553efa809d197aadf994cff55/f1913/4.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f297f859f749ae544e59a4914ceeefd9/f1913/3.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/ee0f2ee1da7023a95bdaec5dcc8fb4fc/f1913/5.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/cb8939dde0a808f387fea7be78a1c8b2/f1913/7..png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/78893cb2b3ed4a16e83c80c7b1539bcc/8752b/8.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/85e073d211cb9af83ccc592733d9b264/f1913/6.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f4ec350feb3583c8a1c09fc6d8d878ba/a079b/9.png\"}}}}]},\"Img\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/7c52d71a37a44c5dd713b9af8de4adb4/7ac0b/person.jpg\"}}}}}");
+module.exports = JSON.parse("{\"data\":{\"icons\":{\"edges\":[{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/a7bb949e6d0d488a85cb39612f19aecb/f1913/1.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/64163140e3dc3c1aad4243465e50acd4/b6970/10.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/556c1746a1f0e3ede5b29ce5282a8410/6f0bd/2.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f297f859f749ae544e59a4914ceeefd9/f1913/3.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/ad8cd4b553efa809d197aadf994cff55/f1913/4.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/ee0f2ee1da7023a95bdaec5dcc8fb4fc/f1913/5.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/85e073d211cb9af83ccc592733d9b264/f1913/6.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/cb8939dde0a808f387fea7be78a1c8b2/f1913/7..png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/78893cb2b3ed4a16e83c80c7b1539bcc/8752b/8.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f4ec350feb3583c8a1c09fc6d8d878ba/a079b/9.png\"}}}}]},\"Img\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/7c52d71a37a44c5dd713b9af8de4adb4/7ac0b/person.jpg\"}}}}}");
 
 /***/ }),
 
-/***/ "./public/page-data/sq/d/1736889774.json":
+/***/ "./public/page-data/sq/d/2406853557.json":
 /*!***********************************************!*\
-  !*** ./public/page-data/sq/d/1736889774.json ***!
+  !*** ./public/page-data/sq/d/2406853557.json ***!
   \***********************************************/
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"items\":{\"edges\":[{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":1,\"title\":\"Trivia Blast!       (Front-end Development)\",\"category\":\"Front End\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/8026c60e4750b274fcaf2caf0b601cd1/419ad/image.jpg\"}}}}}},{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":3,\"title\":\"Dada-base (Node + Express)\",\"category\":\"Node\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f3a62ce1775898271b657677fd0cb2c3/512e3/image.jpg\"}}}}}}]}}}");
+module.exports = JSON.parse("{\"data\":{\"items\":{\"edges\":[{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":1,\"title\":\"Trivia Blast!       (Front-end Development)\",\"category\":\"Front End\",\"link\":\"https://etrenholm.github.io/trivia-blast/\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/8026c60e4750b274fcaf2caf0b601cd1/419ad/image.jpg\"}}}}}},{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":3,\"title\":\"Dada-base (Node + Express)\",\"category\":\"Node\",\"link\":\"https://polar-reaches-58510.herokuapp.com/\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f3a62ce1775898271b657677fd0cb2c3/512e3/image.jpg\"}}}}}}]}}}");
 
 /***/ }),
 
@@ -65060,14 +65060,6 @@ class Hero extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "social_icon",
       onClick: () => window.open('https://www.github.com')
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
-      icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faTwitter"],
-      className: "social_icon",
-      onClick: () => window.open('https://www.twitter.com')
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
-      icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faYoutube"],
-      className: "social_icon",
-      onClick: () => window.open('https://www.youtube.com')
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
       icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faLinkedin"],
       className: "social_icon",
       onClick: () => window.open('https://www.linkedin.com')
@@ -65266,6 +65258,7 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "text",
         className: `email ${this.check(this.state.email) ? "" : "error"}`,
+        onBlur: this.handleChange,
         placeholder: "Email",
         onChange: e => this.setState({
           email: e.target.value
@@ -65315,7 +65308,7 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         title: "map",
         width: "100%",
         height: "100%",
-        src: "https://maps.google.com/maps?width=100%&height=600&hl=en&q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+        src: "https://maps.google.com/maps?q=128%20ball%20farm%20rd&t=&z=13&ie=UTF8&iwloc=&output=embed"
       }));
     }
   }
@@ -65393,7 +65386,7 @@ class Hero extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       }
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
       className: "hover-button"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", null, "Download CV"))), this.icons()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", null, "Resume"))), this.icons()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
       md: 6,
       className: "img"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -65454,8 +65447,8 @@ Hero.contextType = _context__WEBPACK_IMPORTED_MODULE_7__["default"];
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _public_page_data_sq_d_1736889774_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../public/page-data/sq/d/1736889774.json */ "./public/page-data/sq/d/1736889774.json");
-var _public_page_data_sq_d_1736889774_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../public/page-data/sq/d/1736889774.json */ "./public/page-data/sq/d/1736889774.json", 1);
+/* harmony import */ var _public_page_data_sq_d_2406853557_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../public/page-data/sq/d/2406853557.json */ "./public/page-data/sq/d/2406853557.json");
+var _public_page_data_sq_d_2406853557_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../public/page-data/sq/d/2406853557.json */ "./public/page-data/sq/d/2406853557.json", 1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
@@ -65487,7 +65480,8 @@ class Portfolio extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       category: null,
       col: items.length > 6 ? 4 : items.length > 4 ? 3 : items.length > 3 ? 2 : items.length > 1 ? 2 : 1,
       items: this.props.items,
-      showPortfolio: false
+      showPortfolio: false,
+      link: this.props.link
     };
     this.showPortfolio = this.showPortfolio.bind(this);
   }
@@ -65565,7 +65559,8 @@ class Portfolio extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
                 max: 50
               }
             }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-              className: "overlay"
+              className: "overlay",
+              onClick: () => window.open(value.content.frontmatter.link)
             }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
               className: "title"
             }, value.content.frontmatter.title)))));
@@ -65634,13 +65629,13 @@ class Portfolio extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
 
 Portfolio.contextType = _context__WEBPACK_IMPORTED_MODULE_8__["default"];
 /* harmony default export */ __webpack_exports__["default"] = (props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["StaticQuery"], {
-  query: "1736889774",
+  query: "2406853557",
   render: ({
     items
   }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Portfolio, Object.assign({
     items: items.edges
   }, props)),
-  data: _public_page_data_sq_d_1736889774_json__WEBPACK_IMPORTED_MODULE_0__
+  data: _public_page_data_sq_d_2406853557_json__WEBPACK_IMPORTED_MODULE_0__
 }));
 
 /***/ }),
