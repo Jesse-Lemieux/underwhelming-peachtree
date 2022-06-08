@@ -3,7 +3,7 @@ import { Row, Col, Container } from 'react-bootstrap'
 import BaffleText from 'components/baffle-text'
 import AnimationContainer from 'components/animation-container'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faPython, faAws, faJs, faGithub, faNode } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faPython, faCss3, faJs, faGithub, faNode } from '@fortawesome/free-brands-svg-icons'
 import {
   faServer,
   faRobot,
@@ -88,11 +88,8 @@ class Services extends React.Component {
               </div>
               <h4>Front-end React</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                Using react to build many apps, I've become professional at creating
+                SPA based sites and keeping them stream-line for the digital workforce.
               </p>
             </AnimationContainer>
           </Col>
@@ -116,11 +113,8 @@ class Services extends React.Component {
               </div>
               <h4>Python</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                Learned and always learning. Python is a powerful tool I saw the potential in right away. I can use
+                Python to build powerful OOP based apps.
               </p>
             </AnimationContainer>
           </Col>
@@ -153,15 +147,11 @@ class Services extends React.Component {
           <Col md={4} className="service">
             <AnimationContainer delay={1200} animation="fadeInRight fast">
               <div className="icon">
-                <FontAwesomeIcon icon={faRobot} className="solid" />
+                <FontAwesomeIcon icon={faCss3} className="solid" />
               </div>
-              <h4>Artifical Intelligence</h4>
+              <h4>CSS</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                Worked with CSS and HTML since I was very young. With an unquenchable thirst for computer knowledge, I spent most of the eary years learning CSS and have become adept with it.
               </p>
             </AnimationContainer>
           </Col>
@@ -178,7 +168,7 @@ class Services extends React.Component {
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
                 icon={faGithub}
-                value={100}
+                value={50}
                 text="Projects Worked On"
                 symbol="+"
                 duration={3}

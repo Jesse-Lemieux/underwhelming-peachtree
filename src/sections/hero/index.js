@@ -35,7 +35,7 @@ class Hero extends React.Component {
                 }}
               />
               <button className="hover-button">
-                  <span>Download CV</span>
+                  <span>Resume</span>
               </button>
             </div>
             {this.icons()}

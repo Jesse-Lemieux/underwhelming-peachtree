@@ -64107,7 +64107,7 @@ module.exports = warning;
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"icons\":{\"edges\":[{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/a7bb949e6d0d488a85cb39612f19aecb/f1913/1.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/64163140e3dc3c1aad4243465e50acd4/b6970/10.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/556c1746a1f0e3ede5b29ce5282a8410/6f0bd/2.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/ad8cd4b553efa809d197aadf994cff55/f1913/4.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f297f859f749ae544e59a4914ceeefd9/f1913/3.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/ee0f2ee1da7023a95bdaec5dcc8fb4fc/f1913/5.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/cb8939dde0a808f387fea7be78a1c8b2/f1913/7..png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/78893cb2b3ed4a16e83c80c7b1539bcc/8752b/8.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/85e073d211cb9af83ccc592733d9b264/f1913/6.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f4ec350feb3583c8a1c09fc6d8d878ba/a079b/9.png\"}}}}]},\"Img\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f61ad492ab3e151ca66d8abe9b636621/7ac0b/person.jpg\"}}}}}");
+module.exports = JSON.parse("{\"data\":{\"icons\":{\"edges\":[{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/a7bb949e6d0d488a85cb39612f19aecb/f1913/1.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/64163140e3dc3c1aad4243465e50acd4/b6970/10.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/556c1746a1f0e3ede5b29ce5282a8410/6f0bd/2.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/ad8cd4b553efa809d197aadf994cff55/f1913/4.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f297f859f749ae544e59a4914ceeefd9/f1913/3.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/ee0f2ee1da7023a95bdaec5dcc8fb4fc/f1913/5.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/cb8939dde0a808f387fea7be78a1c8b2/f1913/7..png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/78893cb2b3ed4a16e83c80c7b1539bcc/8752b/8.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/85e073d211cb9af83ccc592733d9b264/f1913/6.png\"}}}},{\"node\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f4ec350feb3583c8a1c09fc6d8d878ba/a079b/9.png\"}}}}]},\"Img\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/7c52d71a37a44c5dd713b9af8de4adb4/7ac0b/person.jpg\"}}}}}");
 
 /***/ }),
 
@@ -64118,7 +64118,7 @@ module.exports = JSON.parse("{\"data\":{\"icons\":{\"edges\":[{\"node\":{\"child
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"items\":{\"edges\":[{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":1,\"title\":\"Front-end Development\",\"category\":\"React.js\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f61ad492ab3e151ca66d8abe9b636621/c384e/image.jpg\"}}}}}},{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":2,\"title\":\"Front-end Project\",\"category\":\"React.js\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f61ad492ab3e151ca66d8abe9b636621/c384e/image.jpg\"}}}}}},{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":3,\"title\":\"Angular Project\",\"category\":\"Angular.js\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f61ad492ab3e151ca66d8abe9b636621/c384e/image.jpg\"}}}}}},{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":4,\"title\":\"Angular + Ionic \",\"category\":\"Angular.js\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f61ad492ab3e151ca66d8abe9b636621/c384e/image.jpg\"}}}}}},{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":5,\"title\":\"UI Deisgn for Company\",\"category\":\"UI/UX Design\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f61ad492ab3e151ca66d8abe9b636621/c384e/image.jpg\"}}}}}},{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":6,\"title\":\"UX Development for Company\",\"category\":\"UI/UX Design\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f61ad492ab3e151ca66d8abe9b636621/c384e/image.jpg\"}}}}}}]}}}");
+module.exports = JSON.parse("{\"data\":{\"items\":{\"edges\":[{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":1,\"title\":\"Trivia Blast!       (Front-end Development)\",\"category\":\"Front End\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/8026c60e4750b274fcaf2caf0b601cd1/419ad/image.jpg\"}}}}}},{\"content\":{\"html\":\"\",\"frontmatter\":{\"id\":3,\"title\":\"Dada-base (Node + Express)\",\"category\":\"Node\",\"image\":{\"childImageSharp\":{\"fluid\":{\"src\":\"/static/f3a62ce1775898271b657677fd0cb2c3/512e3/image.jpg\"}}}}}}]}}}");
 
 /***/ }),
 
@@ -65751,7 +65751,7 @@ class Services extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         className: "icon"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faReact"]
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Front-end React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi. In et sem libero. Integer pretium, tellus eu pellentesque tristique, ex libero maximus elit, mollis tristique urna eros non tellus"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Front-end React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Using react to build many apps, I've become professional at creating SPA based sites and keeping them stream-line for the digital workforce."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
         md: 4,
         className: "service border-side"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_animation_container__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -65771,7 +65771,7 @@ class Services extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         className: "icon"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faPython"]
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Python"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi. In et sem libero. Integer pretium, tellus eu pellentesque tristique, ex libero maximus elit, mollis tristique urna eros non tellus"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Python"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Learned and always learning. Python is a powerful tool I saw the potential in right away. I can use Python to build powerful OOP based apps."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
         md: 4,
         className: "service"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_animation_container__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -65802,9 +65802,9 @@ class Services extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "icon"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_6__["faRobot"],
+        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faCss3"],
         className: "solid"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Artifical Intelligence"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi. In et sem libero. Integer pretium, tellus eu pellentesque tristique, ex libero maximus elit, mollis tristique urna eros non tellus"))));
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "CSS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Worked with CSS and HTML since I was very young. With an unquenchable thirst for computer knowledge, I spent most of the eary years learning CSS and have become adept with it."))));
     }
   }
 
@@ -65817,7 +65817,7 @@ class Services extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         animation: "fadeIn fast"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_counter__WEBPACK_IMPORTED_MODULE_7__["default"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faGithub"],
-        value: 100,
+        value: 50,
         text: "Projects Worked On",
         symbol: "+",
         duration: 3

@@ -25,10 +25,8 @@ class Hero extends React.Component {
                             <div className="separator" />
                             <p>I've been working with computer nearly the whole of my life. I first learned how to code html in 2003 when I was just 11! Since then I've been hard at work personally as well as professionally sharpening my coding skills and working tirelessly</p>
                             <div className="social social_icons">
-                                <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://www.github.com')}/>
-                                <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://www.twitter.com')} />
-                                <FontAwesomeIcon icon={faYoutube} className="social_icon" onClick={() => window.open('https://www.youtube.com')} />
-                                <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com')} />
+                                <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://github.com/Jesse-Lemieux')}/>
+                                <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com/in/jesse-lemieux-70103b22a/')} />
                             </div>
                         </div>
                     </Col>
