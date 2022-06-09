@@ -13,7 +13,7 @@ Some things I learned during development were:
 
 ## Installation
 
-## [LINK TO LIVE SITE HERE.](https://github.com/Jesse-Lemieux)
+## [LINK TO LIVE SITE HERE.](https://secure-cliffs-02772.herokuapp.com/)
 
 ## Usage
 
