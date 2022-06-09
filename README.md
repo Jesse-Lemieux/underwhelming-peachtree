@@ -13,7 +13,7 @@ Some things I learned during development were:
 
 ## Installation
 
-## [LINK TO LIVE SITE HERE.]([https://link-url-here.org](https://github.com/Jesse-Lemieux))
+## [LINK TO LIVE SITE HERE.](https://github.com/Jesse-Lemieux))
 
 ## Usage
 
@@ -38,5 +38,5 @@ What the collapsible nav bar looks like:
 ## Credits
 
 Website was created by Jesse Lemieux.
-Email me at dtrsjesse121@gmail.com
-[GitHub]([https://link-url-here.org](https://github.com/Jesse-Lemieux))
+Email me at dtrsjesse121@gmail.com. 
+My [GitHub here.](https://github.com/Jesse-Lemieux))
