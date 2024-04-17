@@ -1,6 +1,6 @@
 {
-  "engines" : { 
-    "node" : "14.18.1"
+  "engines": {
+    "node": "14.18.1"
   },
   "name": "Jesse-Lemieux",
   "description": "Portfolio for web developer Jesse Lemieux",
